@@ -1,0 +1,58 @@
+img.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	img.bg {
+		left: 50%;
+		margin-left: -512px;   /* 50% */
+	}
+}
+
+#mylogin {
+	width: 600px;
+	height:330px;
+	
+	position:absolute;
+	margin-top:-165px;
+	margin-left:-300px;
+	top:50%;
+	left:50%;
+	
+	border: 1px solid #444;
+	border-radius: 20px;
+	background:#ccc;
+	padding:10px;
+    opacity: 0.85;
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+	
+	font-family: "Calibri", "Century Gothic", "Optima", "Trebuchet MS", "Lucida Grande", sans-serif;
+}
+
+#mylogin > h1 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid #444;
+	font-size: 32px;
+}
+
+#mylogin > p {
+	padding: 10px;
+	text-align: justify;
+}
+
+#mylogin > center {
+	text-align: center;
+}

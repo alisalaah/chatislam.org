@@ -1,0 +1,17 @@
+{
+	"private": {
+		"services": [{
+				"service": "google",
+				"clientId": "yourappid.apps.googleusercontent.com",
+				"secret": "yoursecret"
+			}, {
+				"service": "twitter",
+				"consumerKey": "yourconsumerkey",
+				"secret": "yoursecret"
+			}, {
+				"service": "facebook",
+				"appId": "yourappid",
+				"secret": "yoursecret"
+			}]
+	}
+}
