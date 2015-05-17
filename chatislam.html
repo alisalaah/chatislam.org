@@ -24,3 +24,11 @@
 <template name="my_brand_pop">
 	<p>ChatIslam is a place for non-Muslims to have an open discussion and dialog about the teachings of Islam, the world's fastest growing religion.  This site is a product of <a href="http://www.faithchat.com" target="_blank">FaithChat.com</a> which hosts many articles on Islam as well as a private chat service for questions on Islam.  Sign in for this site is required and please use your real name in the chat room.  Site administrators reserve the right to ban and remove anyone who goes against the spirit of these rules and encourage a positive environment.  Basic rules:<br><br>(1) No insulting or use of vulgar language<br>(2) No spamming or advertising<br>(3) Conduct should be towards polite dialogue and discussion on topic.</p>
 </template>
+
+<template name="my_banned">
+	<img src="/background.jpg" class="bg">
+	<div id="mybanned">
+		<h1>Banned</h1>
+		<p>You have been temporarily banned by a site administrator.<br><br><strong>Expires:</strong> {{mrcBanExpires}}<br><strong>Reason:</strong> {{mrcBanReason}}</p>
+	</div>
+</template>
